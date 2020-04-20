@@ -22,16 +22,24 @@
             </nav>
         </header>
 
-        <figure>
-            <video controls width="250">
-    
+        <div class="container"></div>
+
+        <div id="video-div">
+            <video id="video" width="400" controls>
                 <source src="./video/gone.mp4" type="video/mp4">
-    
+
             </video>
-        </figure>
+        </div>
+
+        <form action="" id="form">
+            <label for="email">Enter your email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <input type="submit" id="submit" value="submit">
+        </form>
+
 
     </main>
-    
+
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>

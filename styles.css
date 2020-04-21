@@ -12,10 +12,11 @@ body {
     
 }
 
-.logo > img {
+nav > ul > img {
     width: 2%;
     height: 2%;
     padding-top: 15px;
+    float: left;
   }
 
   ul {
@@ -23,8 +24,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(51, 51, 51, 0.658)
-    /* background-color: #fff; */
+    background-color: rgba(51, 51, 51, 4.658)
   }
   
   li {
@@ -58,6 +58,7 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
 }
 
 form{
@@ -108,8 +109,21 @@ form{
   #Pricing{
       display: flex;
       flex-direction: row;
+      margin-bottom: 100px;
 
   }
+
+  /* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+ } */
+
 
 @media (max-width: 650px) {
     nav > ul {

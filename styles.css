@@ -18,17 +18,10 @@ nav > ul > img {
     padding-top: 15px;
     float: left;
   }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(51, 51, 51, 4.658)
-  }
   
   li {
     float: right;
+    list-style: none;
   }
   
   li a {
@@ -38,7 +31,12 @@ nav > ul > img {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+  #nav-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 4.658)
+  }
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
@@ -46,12 +44,6 @@ nav > ul > img {
 .active {
   background-color: #4CAF50;
 }
-
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
 
 #video-div {
     display: flex;
@@ -113,16 +105,16 @@ form{
 
   }
 
-  /* .footer {
+  .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: turquoise;
     color: white;
     text-align: center;
     padding: 20px;
- } */
+ }
 
 
 @media (max-width: 650px) {
